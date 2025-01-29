@@ -26,7 +26,7 @@ A computer vision project that detects and recognizes expiration dates on produc
 
 1. **Clone the Repository**
    ```cmd
-   git clone https://github.com/your-username/exp-date-recognition.git
+   git clone https://github.com/ankush2992/exp-date-recognition.git
    cd exp-date-recognition
    ```
 
