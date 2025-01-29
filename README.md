@@ -6,9 +6,6 @@ A deep learning-based solution for detecting and recognizing expiration dates, p
 
 - Detection of multiple date-related fields:
   - Expiration dates
-  - Due dates
-  - Production codes
-  - Product information
 - Real-time visualization of detections
 - Support for various image formats
 - Pre-trained model available
