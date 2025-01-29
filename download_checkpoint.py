@@ -17,7 +17,7 @@ def download_checkpoints():
     file_id = "1PI4sChoFi7UCF0Ejijds_mbN6scVSSr9"
     
     # Output path
-    output_path = checkpoint_dir / "model_epoch_final.pth"
+    output_path = checkpoint_dir / "final_model.pth"
     
     if output_path.exists():
         print("Checkpoint file already exists. Skipping download.")
