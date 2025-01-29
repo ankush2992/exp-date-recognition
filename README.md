@@ -95,7 +95,7 @@ exp-date-recognition/
 
 ├── checkpoints/              # Downloaded model files
 
-├── images for testing/       # some sample images inside - copy one of them in test_image folder and rename it to test_image.jpg   👈👈👈 one image at a time only..
+├── images for testing/       # some sample images inside - copy one of them in test_image folder and rename it to test_image.jpg   👈👈👈 
 
 ├── test_images/             # Your test images go here
 
@@ -110,8 +110,9 @@ exp-date-recognition/
 
 
 ## Additional Notes
-
-- Pick any images and rename it to test_image.jpg and copy that image inside test_images [Folder]  , and run the code .
+- 👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
+- Pick any images and rename it to test_image.jpg and copy that image inside test_images [Folder]  , and run the code . MAKE SURE - ONLY 1 IMAGE AT A TIME - named test_image.jpg indise test_images [FOLDER] will be taken for detection...🤦🏽‍♂️🤦🏽‍♂️
+- 👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
 
 - The model checkpoint is ~300MB and will be downloaded during setup
 - First-time run might be slower due to CUDA initialization
