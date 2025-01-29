@@ -111,7 +111,7 @@ exp-date-recognition/
 
 ## Additional Notes
 
-- Pick any images and rename it to test_image.jpd and copy that image inside test_images [Folder]  , and run the code .
+- Pick any images and rename it to test_image.jpg and copy that image inside test_images [Folder]  , and run the code .
 
 - The model checkpoint is ~300MB and will be downloaded during setup
 - First-time run might be slower due to CUDA initialization
