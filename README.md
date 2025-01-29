@@ -30,12 +30,8 @@ A computer vision project that detects and recognizes expiration dates on produc
    cd exp-date-recognition
    ```
 
-2. **Create Virtual Environment**
-   ```cmd
-   python -m venv venv
-   .\venv\Scripts\activate
-   ```
-
+2. **Proceed to 3**
+   
 3. **Install Required Packages**
    ```cmd
    pip install -r requirements.txt
@@ -44,7 +40,7 @@ A computer vision project that detects and recognizes expiration dates on produc
 4. **Download Model Checkpoint**
    ```cmd
    pip install gdown
-   python download_checkpoints.py
+   python download_checkpoint.py
    ```
 
 ### Testing the Installation
@@ -76,3 +72,48 @@ A computer vision project that detects and recognizes expiration dates on produc
    - Extracted dates
 
 ### Expected Output
+
+Loading model...
+Model loaded successfully
+Processing image...
+Found date (confidence: 0.92): 15-09-2021
+
+
+## Troubleshooting Common Windows Issues
+
+### 1. Tesseract Not Found Error
+Error: tesseract is not installed or it's not in your PATH
+
+**Solution:**
+- Verify Tesseract installation path
+- Add to PATH: `C:\Program Files\Tesseract-OCR`
+- Restart code editor
+
+## Project Structure
+
+exp-date-recognition/
+├── checkpoints/ # Downloaded model files
+├──images for testing # some sample images - copy them in test_image folder and rename it to test_image.jpg   👈👈👈
+├── test_images/ # Your test images go here
+├── src/
+├── requirements.txt
+├── download_checkpoints.py
+└── test_model.py
+
+
+
+## Additional Notes
+
+- The model checkpoint is ~300MB and will be downloaded during setup
+- First-time run might be slower due to CUDA initialization
+- For best results, ensure images are well-lit and dates are clearly visible
+
+## Support
+
+If you encounter any issues:
+1. Ensure all installation steps were followed
+2. contact me 
+
+
+## License
+This project is licensed under the MIT License.
