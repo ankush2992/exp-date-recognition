@@ -95,7 +95,7 @@ exp-date-recognition/
 
 ├── checkpoints/              # Downloaded model files
 
-├── images for testing/       # some sample images inside - copy them in test_image folder and rename it to test_image.jpg   👈👈👈
+├── images for testing/       # some sample images inside - copy one of them in test_image folder and rename it to test_image.jpg   👈👈👈 one image at a time only..
 
 ├── test_images/             # Your test images go here
 
