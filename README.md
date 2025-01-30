@@ -2,7 +2,7 @@
 
 A computer vision project that detects and recognizes expiration dates on product packaging using Faster R-CNN and OCR.
 
-## Setup Guide for Windows
+## Setup Guide for Windows . 
 
 ### Prerequisites
 
