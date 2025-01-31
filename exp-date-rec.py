@@ -13,7 +13,7 @@ def example_image():
 
 @pytest.fixture
 def example_categories():
-    # Create a dummy categories object for testing
+
     class Categories:
         int2str_dict = {
             0: "prod",
