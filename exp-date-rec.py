@@ -38,7 +38,5 @@ def test_detect(example_image, example_categories):
     assert isinstance(boxes, torch.Tensor)
     assert isinstance(labels, list)
     assert all(isinstance(label, str) for label in labels)
-
-
 if __name__ == '__main__':
     assert True
