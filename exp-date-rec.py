@@ -6,7 +6,6 @@ from src.exp_date_recognition.detection.model.resnet50 import get_model_instance
 
 @pytest.fixture
 def example_image():
-    # Load an example image for testing
     image = Image.open("tests/assets/2boxes.jpg").convert("RGB")
     return image
 
