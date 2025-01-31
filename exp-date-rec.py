@@ -35,7 +35,6 @@ def test_detect(example_image, example_categories):
 
 
     assert isinstance(detected_image, torch.Tensor)
-    # Assert that boxes is a list of torch.Tensor objects
     assert isinstance(boxes, torch.Tensor)
     # Assert that labels is a list of strings
     assert isinstance(labels, list)
