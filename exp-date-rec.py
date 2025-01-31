@@ -21,14 +21,9 @@ def example_categories():
         def int2str(label):
             return Categories.int2str_dict.get(label)
     return Categories()
-
 def test_detect(example_image, example_categories):
     model = get_model_instance(4, load_fine_tunned="v3")
-    
-    
     detected_image, boxes, labels = detect(model, example_image, example_categories)
-
-
     assert isinstance(detected_image, torch.Tensor)
     assert isinstance(boxes, torch.Tensor)
     assert isinstance(labels, list)
