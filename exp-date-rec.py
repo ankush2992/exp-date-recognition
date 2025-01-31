@@ -33,7 +33,7 @@ def test_detect(example_image, example_categories):
     
     detected_image, boxes, labels = detect(model, example_image, example_categories)
 
-    # Assert that detected_image is a PIL.Image object
+
     assert isinstance(detected_image, torch.Tensor)
     # Assert that boxes is a list of torch.Tensor objects
     assert isinstance(boxes, torch.Tensor)
