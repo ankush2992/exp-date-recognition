@@ -30,7 +30,7 @@ def example_categories():
 def test_detect(example_image, example_categories):
     model = get_model_instance(4, load_fine_tunned="v3")
     
-    # Test the detect function
+    # Test
     detected_image, boxes, labels = detect(model, example_image, example_categories)
 
     # Assert that detected_image is a PIL.Image object
