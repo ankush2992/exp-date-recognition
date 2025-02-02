@@ -14,7 +14,7 @@ def example_categories():
         int2str_dict = {
             0: "prod",
             1: "date",
-            2: "due",
+            2: "due", 
             3: "code"
         }
         @staticmethod
