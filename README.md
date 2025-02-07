@@ -15,7 +15,7 @@ A computer vision project that detects and recognizes expiration dates on produc
 
 3. **Tesseract OCR Installation**
    - Download and install Tesseract from [Direct-Link](https://github.com/tesseract-ocr/tesseract/releases/download/5.5.0/tesseract-ocr-w64-setup-5.5.0.20241111.exe)
-   - Install it in a path without spaces (e.g., `C:\Program Files\Tesseract-OCR`)
+   - Install it in a path without spaces (e.g., `C:\Program Files\Tesseract-OCR`) 
    - Add Tesseract to System PATH:
      - Search for "Environment Variables" in Windows
      - Under System Variables, select "Path" and click "Edit"
