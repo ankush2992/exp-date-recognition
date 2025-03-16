@@ -9,14 +9,10 @@ def download_checkpoints():
     Returns:
         bool: True if download was successful, False otherwise
     """
-    # Create checkpoints directory if it doesn't exist
+    # insert checkpoints directory if it doesn't exist/download checkpoint
     checkpoint_dir = Path("checkpoints")
     checkpoint_dir.mkdir(exist_ok=True)
-    
-    # Your Google Drive file ID
     file_id = "1PI4sChoFi7UCF0Ejijds_mbN6scVSSr9"
-    
-    # Output path
     output_path = checkpoint_dir / "final_model.pth"
     
     if output_path.exists():
